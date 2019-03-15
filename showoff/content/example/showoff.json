@@ -1,7 +1,7 @@
 {
-  "name": "Something",
-  "description": "Example Presentation",
-  "author": "Foo Bar John",
+  "name": "Hackathon",
+  "description": "Team 3 Presentation",
+  "author": "John,Tyler,Gonzalo,Roger",
   "templates" : {
       "special" : "simple.tpl"
   },
