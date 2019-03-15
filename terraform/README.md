@@ -13,7 +13,7 @@
 * Roger can create more workspaces tied to specific repos/working directories
 * Roger will also create a workspaces that are not tied to any repo so that you can configure your own.
 
-## High-level Instructions on configuring repo to workspace
+## Instructions on configuring repo to workspace
 
 * `settings` and `vcs` to configure VCS and `REPOSITORY`
 * `settings` and `general` to configure `TERRAFORM WORKING DIRECTORY`
