@@ -17,7 +17,7 @@
 
 * `settings` and `vcs` to configure VCS and `REPOSITORY`
 * `settings` and `general` to configure `TERRAFORM WORKING DIRECTORY`
-* Upload TF code and you're ready to go
+* Upload TF code to repo and you're ready to go
 
 
 
