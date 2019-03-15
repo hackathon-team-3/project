@@ -30,5 +30,5 @@ spec:
         "showoff",
         "serve",
         "-u",
-        "https://github.com/hackathon-team-3/project/tree/master/showoff/content/example",
+        "https://github.com/hackathon-team-3/preso",
       ]
