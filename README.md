@@ -4,7 +4,7 @@
 
 ### Team Members
 
-John Dohoney, Tyler Walker, Gonzalo Lopez, Roger Chao
+`John Dohoney, Tyler Walker, Gonzalo Lopez, Roger Chao`
 
 ### Technologies
 
