@@ -15,8 +15,8 @@
 
 ## Instructions on configuring repo to workspace
 
-* `settings` and `vcs` to configure VCS and `REPOSITORY`
-* `settings` and `general` to configure `TERRAFORM WORKING DIRECTORY`
+* Under workspace `settings` and `vcs` to configure VCS and `REPOSITORY`
+* Under workspace `settings` and `general` to configure `TERRAFORM WORKING DIRECTORY`
 * Upload TF code to repo and you're ready to go
 
 
