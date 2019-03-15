@@ -8,11 +8,11 @@ John Dohoney, Tyler Walker, Gonzalo Lopez, Roger Chao
 
 ### Technologies
 
-```Infrastructure:``` ie GCP, GKE, Terraform
+```Infrastructure: ie GCP, GKE, Terraform```
 
-```Service Configuration and Service Discovery:``` Consul
+```Service Configuration and Service Discovery: Consul```
 
-```Application:``` Front end portal + Showoff (OSS application) + Wetty
+```Application: Front end portal + Showoff (OSS application) + Wetty```
 
 ### Business Case
 
@@ -22,10 +22,13 @@ Team 3 plans to build a classroom training experience that enables teacher to re
 
 The training solution will have a frontend student sign-up and will integrate with Terraform to provision the classroom. This will include the training application itself, which will  be running on K8s and backed by a repo which will serve the content for the class. Additionally, wetty containers to forward SSH sessions via browser to VMs that will have the needed tooling for student exercises. All of the K8s services will be registered with Consul and will run health checks across the class environment.
 
-###High-level Project Tasks
+### High-level Project Tasks
 
-Showoff application and Frontend - `(Tyler Walker)`
-Terraform provisioning of environment - `(Gonzalo Lopez)`
-Consul Integration - `(John Dohoney / Roger Chao)`
-Overall testing and integration - `( the team )`
+* Showoff application and Frontend - `(Tyler Walker)`
+
+* Terraform provisioning of environment - `(Gonzalo Lopez)`
+
+* Consul Integration - `(John Dohoney / Roger Chao)`
+
+* Overall testing and integration - `( the team )`
 
