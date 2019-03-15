@@ -7,7 +7,7 @@
 * Roger can create workspaces for you (some will be pre-created) - the workspaces include the GCP credentials.
 * The `hackathon-team` organization in TFE is tied to this GitHub organization.
 
-## Instructions on TFE workspaces 
+## TFE workspaces 
 
 * Documentation - https://www.terraform.io/docs/enterprise/workspaces/creating.html
 * Roger can create more workspaces tied to specific repos/working directories
