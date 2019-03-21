@@ -1,4 +1,4 @@
-## Showoff POD
+## Showoff Pod
 
 ### Deploy Showoff POD
 
