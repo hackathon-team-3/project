@@ -1,1 +1,1 @@
-# helm install -f values.yaml ./consul-helm --name consul-helm
+## helm install -f values.yaml ./consul-helm --name consul-helm
