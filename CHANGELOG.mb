@@ -1,0 +1,7 @@
+
+## 0.0.1 (March 21, 2019)
+
+ISSUES:
+
+  * Wetty Pod does not SSH connect to Vault Pod (needs investigation)
+  
