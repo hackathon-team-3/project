@@ -1,23 +1,30 @@
-# Terraform Enterprise
+# Terraform 
 
-## Access to TFE for Hackathon Project
+Need to run seperately until we automate deployment from end-to-end.
 
-* Register for TFE access - https://releases.hashicorp.com/terraform/. 
-* You will be added to the organization `hackathon-team3`.
-* Roger can create workspaces for you (some will be pre-created) - the workspaces include the GCP credentials.
-* The `hackathon-team` organization in TFE is tied to this GitHub organization.
+## GKE
 
-## TFE workspaces 
+Stands up the GKE Cluster
 
-* Documentation - https://www.terraform.io/docs/enterprise/workspaces/creating.html
-* Roger can create more workspaces tied to specific repos/working directories
-* Roger will also create a workspaces that are not tied to any repo so that you can configure your own.
+```terraform apply```
 
-## Instructions on configuring repo to workspace
+## Helm-Consul
 
-* Under workspace `settings` and `vcs` to configure VCS and `REPOSITORY`
-* Under workspace `settings` and `general` to configure `TERRAFORM WORKING DIRECTORY`
-* Upload TF code to repo and you're ready to go
+Helm installs consul on GKE - assumes you are `kubectl config` context set and you are authenticated to cluster
 
+```./gke-consul-helm.sh```
+
+## Helm-Vault
+
+Helm installs vault inside student K8s pod
+
+```pod-deployments\terraform apply```
+
+## Helm-Wetty
+
+
+Helm installs vault inside student K8s pod
+
+```terraform apply```
 
 
