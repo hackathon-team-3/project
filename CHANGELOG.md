@@ -1,7 +1,6 @@
 TODOs:
 
  * Finish TF automation 
- * Tie into front-end ( Google or sign-up process )
  * Create seperate VM for student environment accessed via wetty access
  * Add Consul Connect between Wetty and VM
 
@@ -9,5 +8,5 @@ TODOs:
 
 ISSUES:
 
-  * Wetty Pod does not SSH connect to Vault Pod (needs investigation)
+  * Wetty Pod does not SSH connect to Vault Pod (needs work)
   
