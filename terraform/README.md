@@ -23,7 +23,7 @@ Helm installs vault and wetty inside student K8s pod
 ### Helm-Wetty
 
 
-Helm installs vault inside student K8s pod
+Helm installs wetty and nip.io entries
 
 ```terraform apply```
 
