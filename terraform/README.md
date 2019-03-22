@@ -14,9 +14,9 @@ Helm installs consul on GKE - assumes you are `kubectl config` context set and y
 
 ```./gke-consul-helm.sh```
 
-### Helm-Vault
+### Helm-Vault-Wetty
 
-Helm installs vault inside student K8s pod
+Helm installs vault and wetty inside student K8s pod
 
 ```pod-deployments\terraform apply```
 
