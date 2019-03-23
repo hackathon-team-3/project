@@ -2,25 +2,25 @@
 
 Need to run seperately until we automate deployment from end-to-end.
 
-### GKE
+### gke
 
 Stands up the GKE Cluster
 
 ```terraform apply```
 
-### Helm-Consul
+### helm-consul
 
 Helm installs consul on GKE - assumes you are `kubectl config` context set and you are authenticated to cluster
 
 ```./gke-consul-helm.sh```
 
-### Helm-Student-Pod
+### helm-student-pod
 
 Helm installs vault and wetty inside student K8s pod
 
 ```pod-deployments\terraform apply```
 
-### Helm-Ingress
+### helm-ingress
 
 Helm installs wetty and nip.io entries
 
