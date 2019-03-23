@@ -8,5 +8,6 @@ TODOs:
 
 ISSUES:
 
-  * Wetty Pod does not SSH connect to Vault Pod (needs work)
+  * `helm-student-pod`: Wetty Pod does not SSH connect to Vault Pod 
+  * `helm-ingress`: Need to complete integration to student pod
   
